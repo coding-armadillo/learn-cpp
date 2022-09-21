@@ -26,6 +26,8 @@ repo_url: https://github.com/coding-armadillo/learn-cpp
 copyright: Copyright &copy; 2022 Coding Armadillo
 nav:
   - Home: index.md
+  - Installation: get-started.md
+  - Basics: basics.md
 plugins:
   - search
   - tags
@@ -33,6 +35,7 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       type: date
+  - glightbox
 markdown_extensions:
   - attr_list
   - pymdownx.highlight:
@@ -43,5 +46,9 @@ markdown_extensions:
   - pymdownx.emoji
 extra:
   social:
+    - icon: fontawesome/solid/house
+      link: https://coding-armadillo.github.io/
     - icon: fontawesome/brands/github
       link: https://github.com/coding-armadillo
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:hello.coding.armadillo@gmail.com
