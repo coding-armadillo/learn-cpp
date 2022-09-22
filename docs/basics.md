@@ -60,6 +60,21 @@ When we create variables, we can use assignment operator `=` to initialize a val
 --8<-- "snippets/create-variables-with-values.cpp"
 ```
 
+We can also create constants that cannot change their values.
+
+```cpp title="modify-constant.cpp" linenums="1"
+--8<-- "snippets/modify-constant.cpp"
+```
+
+Try to compile the codes above, an error shall raise :cry: :
+
+```terminal
+.\modify-constant.cpp: In function 'int main()':
+.\modify-constant.cpp:8:11: error: assignment of read-only variable 'value'
+    8 |     value = 2;
+      |     ~~~~~~^~~
+```
+
 ## Output
 
 To display values in the terminal, we use `cout` together with `<<` operator.
@@ -131,6 +146,46 @@ The workflow the program is as follows:
 - `%` for modulus
 - `++` for increment by 1
 - `--` for decrement by 1
+
+### Assignment Operators
+
+We use `=` to assign value to a variable, just like we mention earlier.
+
+We can also chain `=` with the arithmetic operators to simply the code
+
+For example,
+
+```cpp
+int a = 1;
+a = a + 2;
+```
+
+is equivalent to
+
+```cpp
+int a = 1;
+a += 2;
+```
+
+### Comparison Operators
+
+Comparison operators are used to compare two values. They alway return a boolean (`true`/`false`).
+
+```cpp title="compare.cpp" linenums="1"
+--8<-- "snippets/compare.cpp"
+```
+
+### Logical Operators
+
+Logical operators are used to determine the logic between variables or values
+
+- `&&` for logical and
+- `||` for logical or
+- `!` for logical not
+
+```cpp title="logical.cpp" linenums="1"
+--8<-- "snippets/logical.cpp"
+```
 
 ## Assignment 2
 
