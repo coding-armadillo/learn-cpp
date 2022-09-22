@@ -1,5 +1,9 @@
 # Basics of C++
 
+## File extension
+
+We use `.cpp` for C++ source codes.
+
 ## Execution
 
 C++ is a compiled language, meaning that it will be translated into machine codes that can be understood directly by the system.
@@ -73,6 +77,7 @@ While `cout` is used to output, we use `cin`, together with `>>` operator, to ca
 ```cpp title="input-x.cpp" linenums="1"
 --8<-- "snippets/input-x.cpp"
 ```
+
 ## Comments
 
 In C++ we use `//` to comment out a single line, everything after `//` is ignored by the compiler.
@@ -98,3 +103,43 @@ Any text in-between will be ignored by the complier.
 but ends up being 4 */
 int z = 4;
 ```
+
+## Assignment 1
+
+Write a C++ program named `greeting.cpp` to ask user for his/her `name` and display "Hello, `name`".
+
+The workflow the program is as follows:
+
+1. The command line would prompt "What is your name? "
+2. Suppose we enter "Jack".
+3. The command line displays "Hello, Jack"
+
+??? info "Sample Solution"
+
+    ```cpp title="greeting.cpp" linenums="1"
+    --8<-- "assignments/greeting.cpp"
+    ```
+
+## Operators
+
+### Arithmetic Operators
+
+- `+` for addition
+- `-` for subtraction
+- `*` for multiplication
+- `/` for division
+- `%` for modulus
+- `++` for increment by 1
+- `--` for decrement by 1
+
+## Assignment 2
+
+Write a C++ program named `circle.cpp` that prompts for hte diameter (cm) of a circle and computes and displays the circle's area and circumference.
+
+We can assume `π` equals 3.14159.
+
+??? info "Sample Solution"
+
+    ```cpp title="circle.cpp" linenums="1"
+    --8<-- "assignments/circle.cpp"
+    ```
