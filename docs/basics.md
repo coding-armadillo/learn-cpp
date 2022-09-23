@@ -169,7 +169,7 @@ a += 2;
 
 ### Comparison Operators
 
-Comparison operators are used to compare two values. They alway return a boolean (`true`/`false`).
+Comparison operators are used to compare two values. They always return a boolean (`true`/`false`).
 
 ```cpp title="compare.cpp" linenums="1"
 --8<-- "snippets/compare.cpp"
@@ -189,7 +189,7 @@ Logical operators are used to determine the logic between variables or values
 
 ## Assignment 2
 
-Write a C++ program named `circle.cpp` that prompts for hte diameter (cm) of a circle and computes and displays the circle's area and circumference.
+Write a C++ program named `circle.cpp` that prompts for the diameter (cm) of a circle and computes and displays the circle's area and circumference.
 
 We can assume `π` equals 3.14159.
 
