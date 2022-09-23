@@ -198,3 +198,17 @@ We can assume `π` equals 3.14159.
     ```cpp title="circle.cpp" linenums="1"
     --8<-- "assignments/circle.cpp"
     ```
+
+## Assignment 3
+
+Write a C++ program name `triangle.cpp` that prompts for the lengths of 3 sides of a triangle and displays the area of that triangle.
+
+Check out Heron' formula if not sure about the math.
+
+And we can find the square root function from `<cmath>`
+
+??? info "Sample Solution"
+
+    ```cpp title="triangle.cpp" linenums="1"
+    --8<-- "assignments/triangle.cpp"
+    ```
