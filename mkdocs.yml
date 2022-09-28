@@ -28,6 +28,7 @@ nav:
   - Home: index.md
   - Installation: get-started.md
   - Basics: basics.md
+  - Conditionals: conditionals.md
 plugins:
   - search
   - tags
