@@ -129,3 +129,8 @@ See you later!
 ## Quote
 
 ![](https://www.azquotes.com/picture-quotes/quote-practice-makes-perfect-after-a-long-time-of-practicing-our-work-will-become-natural-bruce-lee-92-45-55.jpg)
+
+
+## Assignment 8
+
+## Assignment 9
