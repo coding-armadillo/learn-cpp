@@ -29,6 +29,7 @@ nav:
   - Installation: get-started.md
   - Basics: basics.md
   - Conditionals: conditionals.md
+  - Loops: loops.md
 plugins:
   - search
   - tags

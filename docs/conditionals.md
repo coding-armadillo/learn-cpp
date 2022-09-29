@@ -96,9 +96,7 @@ For example,
 --8<-- "snippets/show-num-records.cpp"
 ```
 
-
 ## Assignment 4
-
 
 Create a C++ program named `bmi-calculator.cpp` that prompts for weight in pounds and height in inches.
 It does not only calculates and displays the body mass index (BMI), but will also prompt the BMI classification.
@@ -120,4 +118,61 @@ The BMI classification is as follows.
 
     ```cpp title="bmi-calculator.cpp" linenums="1"
     --8<-- "assignments/bmi-calculator.cpp"
+    ```
+
+## `switch` statement
+
+In C++ we can use the `switch` statement to select one of many code blocks to be executed.
+The syntax is as follows.
+
+```cpp
+switch(expression) {
+    case value1:
+        // code block 1
+        break;
+    case value2:
+        // code block 2
+        break;
+    case value3:
+        // code block 3
+    default:
+        // code block default
+}
+```
+
+- The `expression` is evaluated once.
+- The value of `expression` is then compared with values in each of `case`. When there's a match, the according code bock will execute.
+- The `break` allows us to break out of `switch` block and to stop further `case` testing. Usually, if there's a match, we can `break` afterwards. But there are exceptions.
+- The `default` specifies what to do if there's no match.
+
+Here's a regular use case of `switch`.
+
+```cpp title="month-num-to-name.cpp" linenums="1"
+--8<-- "snippets/month-num-to-name.cpp"
+```
+
+Here's a special usage of not haveing to `break`
+
+```cpp title="month-num-to-season.cpp" linenums="1"
+--8<-- "snippets/month-num-to-season.cpp"
+```
+
+## Assignment 5
+
+Create a C++ program named `grades.cpp` that prompts for a grade in percentage and translates it to a letter grade.
+
+By the way the letter grade assignment is as follow.
+
+|   Percentage  | Letter Grade |
+| :-----------: | :----------: |
+|    90-100     |       A      |
+|    80-89      |       B      |
+|    70-79      |       C      |
+|    60-69      |       D      |
+|     < 60      |       F      |
+
+??? info "Sample Solution"
+
+    ```cpp title="grades.cpp" linenums="1"
+    --8<-- "assignments/grades.cpp"
     ```
