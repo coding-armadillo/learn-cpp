@@ -124,3 +124,8 @@ See you later!
     ```cpp title="odd-or-even.cpp" linenums="1"
     --8<-- "assignments/odd-or-even.cpp"
     ```
+
+
+## Quote
+
+![](https://www.azquotes.com/picture-quotes/quote-practice-makes-perfect-after-a-long-time-of-practicing-our-work-will-become-natural-bruce-lee-92-45-55.jpg)
