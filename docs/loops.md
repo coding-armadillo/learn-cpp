@@ -133,4 +133,64 @@ See you later!
 
 ## Assignment 8
 
+Create a C++ program named `print-triangle.cpp` that prompts for rows of a triangle. The program will then display a triangle with the given number of rows in the terminal.
+
+A sample run looks like the following.
+
+```terminal
+g++ print-triangle.cpp -o print-triangle
+./print-triangle
+Enter number of rows for the triangle: 7
+      *
+     **
+    ***
+   ****
+  *****
+ ******
+*******
+```
+
+??? info "Sample Solution"
+
+    ```cpp title="print-triangle.cpp" linenums="1"
+    --8<-- "assignments/print-triangle.cpp"
+    ```
+
 ## Assignment 9
+
+Create a C++ program named `diamond.cpp` that prompts for rows of a diamond, where the number of rows shall be odd. The program will then display a diamond with the given number of rows in the terminal.
+
+A sample run looks like the following.
+
+```terminal
+g++ diamon.cpp -o diamon
+./diamon
+Enter number of rows: 21
+          *
+         ***
+        *****
+       *******
+      *********
+     ***********
+    *************
+   ***************
+  *****************
+ *******************
+*********************
+ *******************
+  *****************
+   ***************
+    *************
+     ***********
+      *********
+       *******
+        *****
+         ***
+          *
+```
+
+??? info "Sample Solution"
+
+    ```cpp title="diamond.cpp" linenums="1"
+    --8<-- "assignments/diamond.cpp"
+    ```
