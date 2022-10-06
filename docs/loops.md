@@ -97,7 +97,6 @@ Enter length: 6
     --8<-- "assignments/square.cpp"
     ```
 
-
 ## Assignment 7
 
 Create a C++ program named `odd-or-even.cpp` that would keep prompting for a number and tell if that number is odd or even. The program exists if the user enters a negative number.
@@ -125,11 +124,9 @@ See you later!
     --8<-- "assignments/odd-or-even.cpp"
     ```
 
-
 ## Quote
 
 ![](https://www.azquotes.com/picture-quotes/quote-practice-makes-perfect-after-a-long-time-of-practicing-our-work-will-become-natural-bruce-lee-92-45-55.jpg)
-
 
 ## Assignment 8
 
@@ -163,8 +160,8 @@ Create a C++ program named `diamond.cpp` that prompts for rows of a diamond, whe
 A sample run looks like the following.
 
 ```terminal
-g++ diamon.cpp -o diamon
-./diamon
+g++ diamond.cpp -o diamond
+./diamond
 Enter number of rows: 21
           *
          ***
@@ -193,4 +190,79 @@ Enter number of rows: 21
 
     ```cpp title="diamond.cpp" linenums="1"
     --8<-- "assignments/diamond.cpp"
+    ```
+
+## Assignment 10
+
+Create a C++ program named `plus.cpp` that prompts for rows of a plus sign, where the number of rows shall be odd. The program will then display a plus sign with the given number of rows in the terminal.
+
+A sample run looks like the following.
+
+```terminal
+g++ plus.cpp -o plus
+./plus
+Enter number of rows for the plus: 11
+     *
+     *
+     *
+     *
+     *
+***********
+     *
+     *
+     *
+     *
+     *
+```
+
+??? info "Sample Solution"
+
+    ```cpp title="plus.cpp" linenums="1"
+    --8<-- "assignments/plus.cpp"
+    ```
+
+## Assignment 11
+
+We can generate a random number with the help of `cstdlib` lib. See the following example for a random within 1 and 1000.
+
+```cpp title="print-random-number.cpp" linenums="1"
+--8<-- "snippets/print-random-number.cpp"
+```
+
+Create a C++ program named `number-guessing-game.cpp` that sets a random number (1 to 1000) for user to guess.
+It will display "Bingo!" if the user provides an exact match.
+If not, prompts the user if the number is higher or lower.
+Keep the game playing till the random number is provided.
+
+A sample run looks like the following.
+
+```terminal
+g++ number-guessing-game.cpp -o number-guessing-game
+./number-guessing-game
+Your guess is 500
+It should be higher...
+Your guess is 750
+It should be lower...
+Your guess is 625
+It should be lower...
+Your guess is 575
+It should be lower...
+Your guess is 535
+It should be higher...
+Your guess is 550
+It should be higher...
+Your guess is 560
+It should be lower...
+Your guess is 555
+It should be lower...
+Your guess is 553
+It should be higher...
+Your guess is 554
+Bingo!
+```
+
+??? info "Sample Solution"
+
+    ```cpp title="number-guessing-game.cpp" linenums="1"
+    --8<-- "assignments/number-guessing-game.cpp"
     ```
