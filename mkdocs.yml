@@ -30,6 +30,7 @@ nav:
   - Basics: basics.md
   - Conditionals: conditionals.md
   - Loops: loops.md
+  - CCC: ccc.md
 plugins:
   - search
   - tags
