@@ -6,7 +6,7 @@
 
 A C++ tutorial for beginners
 
-## Get started
+## Getting Started
 
     python -m venv .venv
     .venv\Scripts\activate
