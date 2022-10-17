@@ -44,6 +44,6 @@ For example, let's take a look at J2 from [2022's contest](https://www.cemc.uwat
 
 ## More Exercise
 
-All the past contests can be found [online](https://www.cemc.uwaterloo.ca/contests/past_contests.html#ccc).
+All the past contests can be found [online](https://www.cemc.uwaterloo.ca/contests/past_contests.html#ccc). We can also use [DMOJ](https://dmoj.ca/) to evaluate the solutions online.
 
 [Project Euler](https://projecteuler.net/) and [Advent of Code](https://adventofcode.com/) are also good resources if you want to practice coding and problem solving skills.
