@@ -31,6 +31,9 @@ nav:
   - Conditionals: conditionals.md
   - Loops: loops.md
   - CCC: ccc.md
+  - Array: arrays.md
+  - Pointer: pointers.md
+  - Function: functions.md
 plugins:
   - search
   - tags
