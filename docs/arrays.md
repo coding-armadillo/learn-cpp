@@ -169,3 +169,40 @@ Average score of Player 2 is 78.5
     ```cpp title="multi-score-keeper.cpp" linenums="1"
     --8<-- "assignments/multi-score-keeper.cpp"
     ```
+
+## Strings
+
+A `string` variable in C++ is a collection of characters. We can use the square bracket notation to access and modify the value in a string.
+
+For example,
+
+```cpp title="strings-demo.cpp" linenums="1"
+--8<-- "snippets/strings-demo.cpp"
+```
+
+For convenience, we can use length() or size() to get the length of a string.
+
+```cpp
+cout << car.length() << endl;
+cout << car.size() << endl;
+```
+
+The `+` operator when used with strings, it operates as concatenation.
+
+```cpp title="strings-concat.cpp" linenums="1"
+--8<-- "snippets/strings-concat.cpp"
+```
+
+In C++ a `string` variable can store whitespaces. But `cin` considers whitespaces as a terminating character. If we want the freeform text from terminal, use `getline` instead.
+
+```cpp title="strings-getline.cpp" linenums="1"
+--8<-- "snippets/strings-getline.cpp"
+```
+
+There are other [functions](https://cplusplus.com/reference/string/string/) that may be useful for `string`.
+
+For example,
+
+```cpp title="strings-functions.cpp" linenums="1"
+--8<-- "snippets/strings-functions.cpp"
+```
