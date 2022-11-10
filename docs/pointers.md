@@ -50,3 +50,7 @@ After doubling down:
     ```cpp title="double-down.cpp" linenums="1"
     --8<-- "assignments/double-down.cpp"
     ```
+
+## Extra practice
+
+The [Kattis Problem Archive](https://open.kattis.com/) is also fun to solve.
