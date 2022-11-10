@@ -16,7 +16,7 @@ int main()
 
     for (int i = 0; i < numPlayers; i++)
     {
-        cout << "Play " << i + 1 << ":" << endl;
+        cout << "Player " << i + 1 << ":" << endl;
         for (int j = 0; j < numScores; j++)
         {
             cout << "Enter score " << j + 1 << ": ";

@@ -206,3 +206,13 @@ For example,
 ```cpp title="strings-functions.cpp" linenums="1"
 --8<-- "snippets/strings-functions.cpp"
 ```
+
+## Assignment 14
+
+Let's use J3 from [2021](https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2021/ccc/juniorEF.pdf) as an exercise.
+
+??? info "Sample Solution"
+
+    ```cpp title="2021-J3.cpp" linenums="1"
+    --8<-- "ccc/2021/j3.cpp"
+    ```
