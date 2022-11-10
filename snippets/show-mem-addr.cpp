@@ -8,4 +8,6 @@ int main()
 
     cout << car << endl;
     cout << &car << endl;
+
+    return 0;
 }
