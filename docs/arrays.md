@@ -216,3 +216,16 @@ Let's use J3 from [2021](https://www.cemc.uwaterloo.ca/contests/computing/past_c
     ```cpp title="2021-J3.cpp" linenums="1"
     --8<-- "ccc/2021/j3.cpp"
     ```
+
+## Dynamic Programming
+
+We often use multi-dimensional arrays to solve dynamic programming problems. Let's solve [Lattice paths](https://projecteuler.net/problem=15).
+
+Dynamic programming is a method to simplify a complex problem into simpler sub-problems recursively. In this manner we can forward propagate to find the result by solving easy problems.
+
+Use the Lattice paths problem for example. Think about the scenarios for:
+
+1. 0x0 grid
+2. 1x1 grid
+3. 1x2 grid
+4. 2x1 grid
