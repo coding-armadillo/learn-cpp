@@ -24,7 +24,7 @@ When using with pointer with an array, we can easily change the pointer's locati
 --8<-- "snippets/array-ptr.cpp"
 ```
 
-## Assignment 15
+## Assignment 16
 
 Write a C++ program named `double-down.cpp` to find the max of an integer data set and double that maximum. The program will ask the user to input the number of data values in the set and each value. Then the program displays the max value. Later, double the max and display the whole data set.
 

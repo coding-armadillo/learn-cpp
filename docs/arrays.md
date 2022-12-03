@@ -229,3 +229,39 @@ Use the Lattice paths problem for example. Think about the scenarios for:
 2. 1x1 grid
 3. 1x2 grid
 4. 2x1 grid
+
+## Assignment 15
+
+Create a C++ program named `edit-distance.cpp` that would prompt the user for two strings. Given two strings `str1` and `str2` and below operations that can be performed on `str1`. Find minimum number of edits (operations) required to convert `str1` into `str2`.
+
+1. Insert
+2. Remove
+3. Replace
+
+Here are a few examples.
+
+### Example 1
+
+Input:   str1 = "cat", str2 = "cut"
+
+Output:  1
+
+Explanation: We can convert str1 into str2 by replacing `a` with `u`.
+
+### Example 2
+
+Input:   str1 = "sunday", str2 = "saturday"
+
+Output:  3
+
+Explanation: Last three and first characters are same.  We basically need to convert `un` to `atur`.  This can be done using below three operations. Replace `n` with `r`, insert t, insert a
+
+A sample run looks like the following.
+
+```terminal
+g++ edit-distance.cpp -o edit-distance
+./edit-distance
+str1: sunday
+str2: saturday
+edit distance is 3
+```
