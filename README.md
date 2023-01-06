@@ -1,4 +1,7 @@
 <div align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
     <img src="https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/152/f-code-cpp_128-512.png" alt="logo" height="196">
 </div>
 
@@ -20,3 +23,25 @@ A C++ tutorial for beginners
 
 [1]: https://www.iconfinder.com/icons/308015/cpp_code_icon
 [2]: https://www.iconfinder.com/konekierto
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/Lucaswu2008"><img src="https://avatars.githubusercontent.com/u/81584640?v=4?s=100" width="100px;" alt="Lucaswu2008"/><br /><sub><b>Lucaswu2008</b></sub></a><br /><a href="https://github.com/coding-armadillo/learn-cpp/commits?author=Lucaswu2008" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
