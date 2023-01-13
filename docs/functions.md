@@ -126,7 +126,7 @@ can be defined in a recursive way, say `Fib(n)`, such that
 
 ```
 Fib(0)=0
-Fib(1)=0
+Fib(1)=1
 ```
 
 For all integers n, where `n > 1`
