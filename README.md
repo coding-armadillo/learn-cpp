@@ -4,6 +4,7 @@
 
 # learn-cpp
 
+[![pages-build-deployment](https://github.com/coding-armadillo/learn-cpp/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/coding-armadillo/learn-cpp/actions/workflows/pages/pages-build-deployment)
 ![all-contributors](https://img.shields.io/github/all-contributors/coding-armadillo/learn-cpp)
 
 A C++ tutorial for beginners
