@@ -1,4 +1,6 @@
-![](https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png){width="25%" loading=lazy}
+<figure markdown>
+![Logo](https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png){ width="100" }
+</figure>
 
 # Hello, World!
 
