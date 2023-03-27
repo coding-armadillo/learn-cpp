@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/152/f-code-cpp_128-512.png" alt="logo" height="196">
+    <img src="https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/152/f-code-cpp_128-512.png" alt="logo" height="128">
 </div>
 
 # learn-cpp
