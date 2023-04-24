@@ -114,7 +114,7 @@ For example
 
 ## Recursion
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Droste_Cacao_Alcalinise_blikje%2C_foto4.JPG/800px-Droste_Cacao_Alcalinise_blikje%2C_foto4.JPG)
+![Recursion](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Droste_Cacao_Alcalinise_blikje%2C_foto4.JPG/800px-Droste_Cacao_Alcalinise_blikje%2C_foto4.JPG)
 
 Recursion is the technique of making a function call itself. (The example in overloading is actually not recursion. Why?) This technique provides a way to break complicated problems down into simple problems which are easier to solve.
 

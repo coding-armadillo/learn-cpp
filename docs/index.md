@@ -18,7 +18,7 @@ print("Hello, World!")
 
 ## What is C++?
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/0e/Bjarne-stroustrup_%28cropped%29.jpg){align=right width="15%" loading=lazy}
+![Bjarne Stroustrup](https://upload.wikimedia.org/wikipedia/commons/0/0e/Bjarne-stroustrup_%28cropped%29.jpg){align=right width="15%"}
 
 C++ is a general-purpose programming language, created by [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup).
 Over the decades, C++ has become the language of choice for certain kinds of applications.
