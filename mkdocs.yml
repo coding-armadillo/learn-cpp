@@ -21,7 +21,6 @@ theme:
         name: Switch to light mode
   features:
     - header.autohide
-    - content.code.copy
 repo_name: coding-armadillo/learn-cpp
 repo_url: https://github.com/coding-armadillo/learn-cpp
 copyright: Copyright &copy; 2022 Coding Armadillo
