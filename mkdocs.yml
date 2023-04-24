@@ -42,7 +42,8 @@ plugins:
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true
-  - glightbox
+  - glightbox:
+      auto_caption: true
 markdown_extensions:
   - admonition
   - attr_list
