@@ -4,8 +4,8 @@
 
 # learn-cpp
 
-[![GitHub Pages](https://github.com/coding-armadillo/learn-cpp/actions/workflows/gh-deploy.yml/badge.svg)](https://github.com/coding-armadillo/learn-cpp/actions/workflows/gh-deploy.yml)
 ![all-contributors](https://img.shields.io/github/all-contributors/coding-armadillo/learn-cpp)
+[![GitHub Pages](https://github.com/coding-armadillo/learn-cpp/actions/workflows/gh-deploy.yml/badge.svg)](https://github.com/coding-armadillo/learn-cpp/actions/workflows/gh-deploy.yml)
 
 A C++ tutorial for beginners
 
