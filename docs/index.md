@@ -1,7 +1,3 @@
-<figure markdown>
-![Logo](https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png){ width="100" }
-</figure>
-
 # Hello, World!
 
 This is a C++ program, which displays the famous "Hello, World!" in the terminal.
