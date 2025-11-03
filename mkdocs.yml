@@ -2,8 +2,6 @@ site_name: Learn C++
 site_author: Coding Armadillo
 theme:
   name: material
-  favicon: https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/152/f-code-cpp_128-512.png
-  logo: https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/152/f-code-cpp_128-512.png
   font:
     text: Roboto
   palette:
